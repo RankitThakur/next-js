@@ -1,6 +1,6 @@
-'use client'
-import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+"use client";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const router = useRouter();
@@ -12,7 +12,9 @@ export default function Home() {
       <br />
       <br />
 
-      <button onClick={() => router.push('/dashboard/navbar')}>Go to dashboard</button>
+      <button onClick={() => router.push("/dashboard/navbar")}>
+        Go to dashboard
+      </button>
     </main>
-  )
+  );
 }
